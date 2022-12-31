@@ -1,0 +1,20 @@
+﻿ProjectRequirements
+
+
+winexe
+C#
+.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\
+ProjectRequirements
+none
+false
+DEBUG;TRACE
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\App.xaml
+17425303941
+
+301118430238
+17920207516
+LoginWindow.xaml;MainWindow.xaml;ResourceDictionaries\Buttons\ActionButton.xaml;ResourceDictionaries\Buttons\CancelButton.xaml;ResourceDictionaries\Buttons\toggle1.xaml;ResourceDictionaries\Comboboxes\StandardCombobox2.xaml;ResourceDictionaries\Datagrid\DatagridStyle.xaml;ResourceDictionaries\ListBox\ListBoxItemStyle.xaml;ResourceDictionaries\TextBoxes\PasswordBox1.xaml;ResourceDictionaries\TextBoxes\StandardTextBox.xaml;SignUpWindow.xaml;UI\FindConflictsWindow.xaml;UI\FindDuplicatesWindow.xaml;UI\ProjectUI.xaml;UI\RequirementsUI.xaml;UI\RequirementUI.xaml;UI\StickholderUI.xaml;
+
+False
+

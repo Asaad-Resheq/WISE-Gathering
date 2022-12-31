@@ -1,0 +1,191 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\MainWindow.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\App.g.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.Properties.Resources.resources
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.GenerateResource.Cache
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\LoginWindow.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\SignUpWindow.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\LoginWindow.g.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\SignUpWindow.g.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\ProjectUI.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\ProjectUI.g.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementsUI.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementsUI.g.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\StickholderUI.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\StickholderUI.g.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementUI.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementUI.g.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesWindow.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesWindow.g.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsWindow.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsWindow.g.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Comboboxes\StandardCombobox2.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Datagrid\DatagridStyle.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\ListBox\ListBoxItemStyle.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\TextBoxes\StandardTextBox.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\ActionButton.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\CancelButton.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\App.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\TextBoxes\PasswordBox1.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\toggle1.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.exe.config
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.exe
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering_MarkupCompile.cache
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.g.resources
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.exe
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesReportWindow.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesReportWindow.g.cs
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsReportWindow.baml
+C:\Users\Administrator\documents\visual studio 2012\Projects\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsReportWindow.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.exe.config
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.exe
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.pdb
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.dll
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.xml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csprojAssemblyReference.cache
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\LoginWindow.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\MainWindow.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\ActionButton.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\CancelButton.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\toggle1.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Comboboxes\StandardCombobox2.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Datagrid\DatagridStyle.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\ListBox\ListBoxItemStyle.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\TextBoxes\PasswordBox1.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\TextBoxes\StandardTextBox.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\SignUpWindow.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsReportWindow.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsWindow.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesReportWindow.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesWindow.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\ProjectUI.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementsUI.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementUI.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\StickholderUI.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\App.baml
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\LoginWindow.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\MainWindow.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\SignUpWindow.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsReportWindow.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsWindow.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesReportWindow.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesWindow.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\ProjectUI.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementsUI.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementUI.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\UI\StickholderUI.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\App.g.cs
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering_MarkupCompile.cache
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.g.resources
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.Properties.Resources.resources
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.GenerateResource.cache
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.CoreCompileInputs.cache
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.CopyComplete
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.exe
+C:\Users\hanod\Desktop\stackholder\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.pdb
+D:\desktop\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.exe.config
+D:\desktop\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.exe
+D:\desktop\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.pdb
+D:\desktop\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.dll
+D:\desktop\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.SqlServer.dll
+D:\desktop\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.xml
+D:\desktop\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.SqlServer.xml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.AssemblyReference.cache
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.SuggestedBindingRedirects.cache
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\LoginWindow.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\MainWindow.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\ActionButton.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\CancelButton.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\toggle1.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Comboboxes\StandardCombobox2.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Datagrid\DatagridStyle.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\ListBox\ListBoxItemStyle.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\TextBoxes\PasswordBox1.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\TextBoxes\StandardTextBox.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\SignUpWindow.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsReportWindow.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsWindow.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesReportWindow.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesWindow.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\ProjectUI.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementsUI.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementUI.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\StickholderUI.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\App.baml
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\LoginWindow.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\MainWindow.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\SignUpWindow.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsReportWindow.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsWindow.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesReportWindow.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesWindow.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\ProjectUI.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementsUI.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementUI.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\UI\StickholderUI.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\App.g.cs
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering_MarkupCompile.cache
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.g.resources
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.Properties.Resources.resources
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.GenerateResource.cache
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.CoreCompileInputs.cache
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.CopyComplete
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.exe
+D:\desktop\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.pdb
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.exe.config
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.exe
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\bin\Debug\WISE Gathering.pdb
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.dll
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.SqlServer.dll
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.xml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\bin\Debug\EntityFramework.SqlServer.xml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.AssemblyReference.cache
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.SuggestedBindingRedirects.cache
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\LoginWindow.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\MainWindow.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\ActionButton.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\CancelButton.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Buttons\toggle1.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Comboboxes\StandardCombobox2.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\Datagrid\DatagridStyle.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\ListBox\ListBoxItemStyle.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\TextBoxes\PasswordBox1.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ResourceDictionaries\TextBoxes\StandardTextBox.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\SignUpWindow.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsReportWindow.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsWindow.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesReportWindow.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesWindow.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\ProjectUI.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementsUI.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementUI.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\StickholderUI.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\App.baml
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\LoginWindow.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\MainWindow.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\SignUpWindow.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsReportWindow.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindConflictsWindow.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesReportWindow.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\FindDuplicatesWindow.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\ProjectUI.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementsUI.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\RequirementUI.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\UI\StickholderUI.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\App.g.cs
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering_MarkupCompile.cache
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.g.resources
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.Properties.Resources.resources
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.GenerateResource.cache
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.CoreCompileInputs.cache
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\ProjectRequirements.csproj.CopyComplete
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.exe
+D:\desktop\Study-Stuff\G.Project\ProjectRequirements\ProjectRequirements\obj\Debug\WISE Gathering.pdb

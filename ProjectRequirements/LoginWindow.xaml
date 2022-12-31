@@ -1,0 +1,77 @@
+﻿<Window x:Class="ProjectRequirements.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          Height="400" Width="600"
+        Loaded="Window_Loaded_1"   WindowStartupLocation="CenterScreen"
+        >
+
+
+
+    <Window.Resources>
+        <Style TargetType="TextBox" >
+            <Setter Property="Template" Value="{DynamicResource ResourceKey=TextBoxBaseControlTemplateStyle}"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="Template" Value="{DynamicResource ResourceKey=standardPasswordBox1}"></Setter>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+           
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        
+        
+        
+        <Border
+            Grid.ColumnSpan="2"
+            Background="{DynamicResource ResourceKey=blue1}"
+            CornerRadius="7"
+            Margin="8"
+            ></Border>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"
+                   Grid.ColumnSpan="2"
+                   FontSize="22"
+                   FontWeight="Bold"
+                   Foreground="White">
+            WISE Gathering
+        </TextBlock>
+        <Label Grid.Row="1" FontSize="14" Foreground="{DynamicResource ResourceKey=blue1}" FontWeight="Bold"  HorizontalContentAlignment="Center" Grid.ColumnSpan="3">Log In</Label>
+
+        <Label Grid.Row="2">UserName</Label>
+        <TextBox  Margin="10" x:Name="txtusername" Grid.Row="2" Grid.Column="1"
+                  Grid.ColumnSpan="2"
+                  ></TextBox>
+
+        <Label Grid.Row="3">Password</Label>
+        <PasswordBox  Margin="10"
+              Grid.ColumnSpan="2"
+            x:Name="txtuserpassword" Grid.Row="3" Grid.Column="1"></PasswordBox>
+
+
+        <TextBlock VerticalAlignment="Center"  HorizontalAlignment="Center" Grid.Row="4" Grid.Column="0">
+                <Hyperlink Click="Hyperlink_Click_1">Sign Up</Hyperlink>
+        </TextBlock>
+
+
+        <Button   Margin="10"
+            Template="{DynamicResource ResourceKey=ActionButtonTemplate }"
+            Grid.Row="4" Grid.Column="1" Click="Button_Click_1">Log In</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,89 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ControlTemplate x:Key="ActionButtonTemplate" TargetType="{x:Type Button}">
+        <ControlTemplate.Resources>
+
+        </ControlTemplate.Resources>
+        <Border  Name="Border" 
+                  
+                 CornerRadius="5"
+                    BorderBrush="{DynamicResource ResourceKey=blue1}" 
+                    BorderThickness="0.4"
+                     
+                    Background="#FF131B96"
+                    TextBlock.Foreground="White"
+                    >
+            <Grid>
+                <Rectangle Name="FocusCue" Visibility="Hidden" Stroke="Black"
+                StrokeThickness="1" StrokeDashArray="1 2"
+                SnapsToDevicePixels="True"></Rectangle>
+                <ContentPresenter RecognizesAccessKey="True"
+                                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                    Margin="{TemplateBinding Padding}">
+                </ContentPresenter>
+            </Grid>
+        </Border >
+        <ControlTemplate.Triggers>
+
+            <EventTrigger RoutedEvent="MouseEnter">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <ColorAnimation Storyboard.TargetName="Border"
+                                Storyboard.TargetProperty="Background.Color"
+                                To="#0D3F82"  Duration="0:0:0.5"></ColorAnimation>
+
+                        <!--
+                        <ColorAnimation Storyboard.TargetName="Border"
+                                Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                                To="#004298" Duration="0:0:0.5"></ColorAnimation>-->
+
+
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+            <EventTrigger RoutedEvent="GotFocus">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <ColorAnimation Storyboard.TargetName="Border"
+                                Storyboard.TargetProperty="Background.Color"
+                                To="#0D3F82" Duration="0:0:0.5"></ColorAnimation>
+                        <!--
+                        <ColorAnimation Storyboard.TargetName="Border"
+                                Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                                To="#004298" Duration="0:0:0.5"></ColorAnimation>-->
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+            <EventTrigger RoutedEvent="MouseLeave">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <ColorAnimation Storyboard.TargetName="Border"
+                                Storyboard.TargetProperty="Background.Color"
+                                 Duration="0:0:0.5"></ColorAnimation>
+                        <!--
+                        <ColorAnimation Storyboard.TargetName="Border"
+                                Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                                 Duration="0:0:0.5"></ColorAnimation>-->
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+            <EventTrigger RoutedEvent="LostFocus">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <ColorAnimation Storyboard.TargetName="Border"
+                                Storyboard.TargetProperty="Background.Color"
+                                 Duration="0:0:0.5"></ColorAnimation>
+                        <!--
+                        <ColorAnimation Storyboard.TargetName="Border"
+                                Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                               Duration="0:0:0.5"></ColorAnimation>-->
+
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+
+
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+</ResourceDictionary>

@@ -1,0 +1,265 @@
+﻿<Window x:Class="ProjectRequirements.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          Height="700" Width="1000"
+          DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Loaded="Window_Loaded_1"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"
+        >
+
+
+    <Window.Resources>
+        <Style TargetType="TextBox" >
+            <Setter Property="Template" Value="{DynamicResource ResourceKey=TextBoxBaseControlTemplateStyle}"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="Template" Value="{DynamicResource ResourceKey=standardPasswordBox1}"></Setter>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+        <Style TargetType="ComboBox" BasedOn="{StaticResource ResourceKey=StandardCombobox2}"></Style>
+         
+    </Window.Resources>
+    
+    
+    <Grid Background="#f2f5f7" x:Name="MainGrid">
+        <Grid.Resources>
+            <Style x:Name="gridborder" TargetType="Border">
+                <Setter Property="Padding" Value="8,8,8,8"></Setter>
+                <Setter Property="BorderBrush" Value="LightBlue"></Setter>
+                <Setter Property="BorderThickness" Value="1.102"></Setter>
+                <Setter Property="CornerRadius" Value="5"></Setter>
+            </Style>
+        </Grid.Resources>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Border
+             Margin="5" Background="White" Grid.Column="0" 
+            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+            >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition  Height="10*"></RowDefinition>
+                    <RowDefinition  Height="1*"></RowDefinition>
+                </Grid.RowDefinitions>
+               
+                <Image x:Name="imguserPhoto"
+                      Source="{Binding userimg}"
+                       ></Image>
+
+                <StackPanel Grid.Row="1">
+                    <Label Content="{Binding displayedusername}"></Label>
+                    <StackPanel Orientation="Horizontal">
+                        <Label FontSize="14" FontWeight="Bold" Foreground="SteelBlue" >Number Of Projects:</Label>
+                        <Label FontSize="14"  FontWeight="Bold" Content="{Binding Projects.Count}" ></Label>
+                    </StackPanel>
+                  
+                </StackPanel>
+                
+                <Button
+                     Margin="8,5,8,5"
+                    Template="{DynamicResource ResourceKey=ActionButtonTemplate }"
+                    Grid.Row="2" Click="Button_Click_1">Log Out</Button>
+            </Grid>
+        </Border>
+        
+        <Border
+             Margin="5" Background="White" Grid.Column="1"    
+            >
+            <Grid>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition  Height="2*"></RowDefinition>
+                    <RowDefinition  Height="10*"></RowDefinition>
+                    <RowDefinition  Height="1*"></RowDefinition>
+                </Grid.RowDefinitions>
+                
+                
+                
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Label>Filter</Label>
+                    <Label Grid.Column="1">Project Name</Label>
+                    <TextBox   Margin="2" x:Name="txtprojectnameSearch" Grid.Row="0" Grid.Column="2"></TextBox>
+
+                    <Label Grid.Row="1">Sort</Label>
+                    <ComboBox 
+                        Margin="2"
+                        x:Name="cmbsortby" SelectionChanged="ComboBox_SelectionChanged_1" Grid.Row="1" Grid.Column="1">
+                        <ComboBoxItem Tag="cd">Creation Date</ComboBoxItem>
+                        <ComboBoxItem  Tag="md">Last Modification Date</ComboBoxItem>
+                        
+                    </ComboBox>
+                    <ComboBox  Margin="2" x:Name="cmbsortmode" SelectionChanged="ComboBox_SelectionChanged_2" Grid.Row="1" Grid.Column="2">
+                        <ComboBoxItem Tag="asc">ASC</ComboBoxItem>
+                        <ComboBoxItem Tag="desc">DESC</ComboBoxItem>
+
+                    </ComboBox>
+
+                    <Button
+                        Margin="2"
+                        Template="{DynamicResource ResourceKey=ActionButtonTemplate}"
+                        Grid.Row="2" Grid.Column="1" Click="Button_Click_6">Apply Filter</Button>
+                    <Button  Margin="2"
+                        Template="{DynamicResource ResourceKey=ActionButtonTemplate}"
+                        Grid.Row="2" Grid.Column="2" Click="Button_Click_7">Reset Filter</Button>
+                </Grid>
+                <DataGrid
+                    
+                    
+                    Style="{DynamicResource ResourceKey=DataGridStyle1}"
+                    IsReadOnly="True"
+                    
+                    AutoGeneratingColumn="grd_projects_AutoGeneratingColumn_1"
+                    AutoGeneratedColumns="grd_projects_AutoGeneratedColumns_1"
+                    SelectionChanged="grd_projects_SelectionChanged_1"
+                    ItemsSource="{Binding Projects}"
+                   
+                    
+                    Grid.Row="1" x:Name="grd_projects" Margin="5">
+                    
+                    <DataGrid.Columns>
+
+                        <DataGridTemplateColumn Header="Modify">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button 
+                                         Template="{DynamicResource ResourceKey=ActionButtonTemplate }"
+                                        Click="Button_Click_3">Modify</Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        
+                        
+                        <DataGridTemplateColumn Header="Delete">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button 
+                                         Template="{DynamicResource ResourceKey=CancelButtonTemplate }"
+                                        Click="Button_Click_2">Delete</Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Header="View Summary">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button   Template="{DynamicResource ResourceKey=ActionButtonTemplate }"
+                                        Click="Button_Click_8">View Summary</Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+               
+                    </Grid.ColumnDefinitions>
+                    <Button 
+                         Margin="8,5,8,5"
+                        Template="{DynamicResource ResourceKey=ActionButtonTemplate}"
+                        Click="Button_Click_4">Add</Button>
+                    <Button 
+                         Margin="8,5,8,5"
+                        Template="{DynamicResource ResourceKey=ActionButtonTemplate}"
+                           Grid.Column="1" 
+                            Click="Button_Click_5"
+                        >Modify Requirements</Button>
+                </Grid>
+              
+            </Grid>
+        </Border>
+
+        <Border
+             Margin="5" Background="White" Grid.Column="2"      
+            >
+            <Grid>
+                <Grid.RowDefinitions>
+
+                    <RowDefinition  Height="1*"></RowDefinition>
+                    <RowDefinition  Height="10*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label FontSize="14"  Grid.Row="0">Project Summary</Label>
+
+                <StackPanel Grid.Row="1">
+
+                    <StackPanel  Orientation="Vertical">
+                        <Label FontSize="18"  FontWeight="Bold" Foreground="SteelBlue" >Project Name:</Label>
+                        <Label FontSize="18"  FontWeight="Bold" Content="{Binding selectedprojectname}" ></Label>
+                    </StackPanel>
+                    
+                    <StackPanel  Orientation="Horizontal">
+                        <Label FontSize="14"  FontWeight="Bold" Foreground="SteelBlue" >Number Of Requirements:</Label>
+                        <Label FontSize="14"  FontWeight="Bold" Content="{Binding projectrequirements.Count}" ></Label>
+                    </StackPanel>
+
+                    
+               
+                    <StackPanel Orientation="Vertical">
+                        <Label FontWeight="Bold" Foreground="SteelBlue" >StakeHolders:</Label>
+                        <ListBox ItemsSource="{Binding projectstickholders}"
+                                  ItemContainerStyle="{DynamicResource ListboxItemStyle}"
+                                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+            
+                                 >
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+
+                                    <Border  VerticalAlignment="Stretch"
+                                HorizontalAlignment="Stretch" Margin="1" Padding="2" BorderThickness=".5" BorderBrush="SteelBlue"
+                                CornerRadius="3">
+
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="1*"></RowDefinition>
+                                                <RowDefinition Height="2*"></RowDefinition>
+                                                
+                                            </Grid.RowDefinitions>
+
+                                            <Label Grid.Row="0"  Content="{Binding Path=StickholderName}"></Label>
+                                            <Label Grid.Row="1"  Content="{Binding Path=Email}"></Label>
+                                            
+                                        </Grid>
+                                    </Border>
+
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+                 
+                </StackPanel>
+            </Grid>
+        </Border>
+        
+        
+        
+    </Grid>
+</Window>

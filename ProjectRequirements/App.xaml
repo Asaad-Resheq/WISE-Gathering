@@ -1,0 +1,32 @@
+﻿<Application x:Class="ProjectRequirements.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="LoginWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ResourceDictionaries\Buttons\ActionButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="ResourceDictionaries\Buttons\CancelButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="ResourceDictionaries\Comboboxes\StandardCombobox2.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="ResourceDictionaries\Datagrid\DatagridStyle.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="ResourceDictionaries\ListBox\ListBoxItemStyle.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="ResourceDictionaries\TextBoxes\StandardTextBox.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="ResourceDictionaries\TextBoxes\PasswordBox1.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="ResourceDictionaries\Buttons\toggle1.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+
+            <SolidColorBrush x:Key="red1" Color="#EE1153"></SolidColorBrush>
+            <SolidColorBrush x:Key="blue1" Color="#236BC9"></SolidColorBrush>
+            <SolidColorBrush x:Key="lightcolor" Color="#FFFFFF"></SolidColorBrush>
+            <SolidColorBrush x:Key="Darkcolor" Color="#142D4E"></SolidColorBrush>
+            
+        </ResourceDictionary>
+
+          
+
+
+        
+        
+    </Application.Resources>
+</Application>

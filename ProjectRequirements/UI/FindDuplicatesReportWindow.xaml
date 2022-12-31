@@ -1,0 +1,35 @@
+﻿<Window x:Class="ProjectRequirements.UI.FindDuplicatesReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FindDuplicatesReportWindow" Height="600" Width="800"
+        Loaded="Window_Loaded_1"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!--
+         FontFamily="Arial"
+                     FontStretch="Condensed"
+                     FontWeight="Bold"
+        -->
+        <FlowDocumentScrollViewer 
+               x:Name="flowdocumentscroll"
+               IsToolBarVisible="True"
+                                  ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                  ScrollViewer.HorizontalScrollBarVisibility="Auto">
+            <FlowDocument 
+                    
+                    Background="White" x:Name="flowdocument">
+
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+
+        <Button Visibility="Collapsed" Template="{DynamicResource ResourceKey=ActionButtonTemplate }" Width="100" 
+                Click="Button_Click_1"
+                Margin="5"  Grid.Row="1">copy</Button>
+    </Grid>
+</Window>
